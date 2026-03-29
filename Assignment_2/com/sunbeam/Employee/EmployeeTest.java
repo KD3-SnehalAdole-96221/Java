@@ -29,10 +29,10 @@ public class EmployeeTest {
 	}
 
 	void PrintRecord() {
-		System.out.println("Enter first name: " + emp1.getF_Name());
-		System.out.println("Enter Last Name: " + emp1.getL_Name());
-		System.out.println("Enter monthly Salary: " + emp1.getSalary());
-		System.out.println("Yearly salary: " + emp1.YearlySal(0));
+		System.out.println(" first name: " + emp1.getF_Name());
+		System.out.println(" Last Name: " + emp1.getL_Name());
+		System.out.println(" monthly Salary: " + emp1.getSalary());
+		System.out.println(" salary: " + emp1.YearlySal(0));
 		System.out.println("Increamented Salary: " + emp1.IncreSal(0));
 
 	}
